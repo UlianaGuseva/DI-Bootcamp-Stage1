@@ -1,0 +1,114 @@
+body {
+
+    background-image: url(back3.jpg);
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+  color: white;  
+  text-align: center;
+  font-size: 35px;
+  font-family: Mynerve, sans-serif;
+  text-transform: uppercase;
+  background-image: url(magic.jpg);
+  background-size: cover;
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+}
+
+h2 {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+a {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    transition: all 1s;
+    text-align: center;
+  font-size: large;
+  font-family: Mynerve, sans-serif;
+  color: white;
+  
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+#harry {
+    background-image: url(harry2.jpeg);
+   background-size: 100%;
+   border-radius: 10px;    
+}
+
+#dumb {
+    background-image: url(dumb.jpg);
+   background-size: 100%;
+   border-radius: 10px;
+}
+
+#herm {
+    background-image: url(herm.jpg);
+   background-size: cover;
+   border-radius: 10px;    
+}
+
+#ron {
+    background-image: url(ron.jpg);
+   background-size: cover;
+   border-radius: 10px;
+}
+
+#luna {
+    background-image: url(luna.jpeg);
+   background-size: cover;
+   border-radius: 10px;
+}
+
+#test {
+    background-image: url(proriz.jpg);
+   background-size: cover;
+   border-radius: 10px;
+}
+
+article {
+    color: #572A72;  
+    text-align: left;
+    font-size: 30px;
+    font-family: Mynerve, sans-serif;
+    position: relative;
+}
+
+p {
+    color: #572A72;  
+    text-align: center;
+    font-size: 30px;
+    font-family: Mynerve, sans-serif;
+    position: relative;
+}
+
+footer {
+    color: white;  
+    text-align: center;
+    font-size: 30px;
+    font-family: Mynerve, sans-serif;
+    background-image: url(magic.jpg);
+  background-size: cover;
+  position: relative;
+}

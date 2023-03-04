@@ -1,0 +1,45 @@
+body {
+
+    background-image: url(magic.jpg);
+    background-size: 100%;
+    margin: 0px;
+}
+    
+
+a {
+    justify-content: left;
+    font-size: 35px;
+    text-align: center;
+    font-family: Mynerve, sans-serif;
+        color: black;
+        padding: 50px,50px,50px,50px;
+        
+    }
+
+    #home {
+        background-color: rgba(232,114,16,0.5);
+        border-radius: 10px;
+        
+    }
+
+
+    header {
+        color: white;  
+        text-align: center;
+        font-size: 35px;
+        font-family: Mynerve, sans-serif;
+        background: rgba(232,114,16,0.5);
+        width: 650px;
+        height: 80px;
+        margin-top: 50px;
+        padding-top: 25px;
+        border-radius: 10px;
+    }
+
+    article {
+        margin-right: 30;
+        color: white;  
+        text-align: right;
+        font-size: 70px;
+        font-family: Mynerve, sans-serif;
+    }
